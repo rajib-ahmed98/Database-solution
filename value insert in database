@@ -1,0 +1,7 @@
+CREATE table employee_info(
+     employee_id int NOT NULL AUTO_INCREMENT,
+    Name VARCHAR(25),
+    Salary int(10),
+    City VARCHAR(20),
+    PRIMARY KEY(employee_id)
+); 
